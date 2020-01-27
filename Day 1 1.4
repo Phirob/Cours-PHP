@@ -1,0 +1,24 @@
+<?php
+
+$comptes = [
+    'nom' => [
+        'prenom' => 'Louis',
+        'ville' => 'Los Angeles',
+        'age' => '19'
+    ],
+    'nom2' => [
+        'prenom' => 'Theo',
+        'ville' => 'Tokyo',
+        'age' => '19',
+    ],
+    'nom3' => [
+        'prenom' => 'Axel',
+        'ville' => 'Bouzole',
+        'age' => '19'
+    ]
+];
+
+foreach($comptes as $compte)
+    echo $compte["prenom"] . " habite à " . $compte["ville"] . " et a " . $compte["age"] . " ans.<br>"
+
+?>
